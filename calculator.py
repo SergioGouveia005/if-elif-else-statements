@@ -46,7 +46,8 @@ def calculator(num1, num2, operator):
             result = num1 / num2
             print(f"The result is: {result}")
         else:
-            print("Attempted divided by zero")
+            print("Attempted divide by zero")
+            return
     elif operator == "%":
         result = num1 % num2
         print(f"The result is: {result}")
